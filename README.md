@@ -1,2 +1,2 @@
 # FastOccupancy
-Fast Occupancy models 
+Bayesian Occupancy models for large datasets
