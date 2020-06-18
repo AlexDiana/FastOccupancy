@@ -2,7 +2,8 @@ library(MASS); library(dplyr);
 library(mvtnorm); library(coda)
 library(reshape2); library(ggplot2)
 
-library(FastOccupancy)
+sourceCpp("codecpp.cpp")
+source('functions.r', echo=F)
 
 # simulate data -----------------------------------------------------------
 
